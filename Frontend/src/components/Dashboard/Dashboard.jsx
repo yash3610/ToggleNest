@@ -114,7 +114,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="mt-4 h-2 bg-gray-100 rounded-full overflow-hidden">
-            <div className="h-full bg-gray-400 transition-all" style={{ width: '0%' }}></div>
+            <div className="h-full bg-gray-400 transition-all" style={{ width: `${stats.pendingPercentage}%` }}></div>
           </div>
         </div>
 
