@@ -1,135 +1,22 @@
 # Dependencies
 node_modules/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 
 # Environment variables
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # Production builds
 Frontend/build/
 Backend/dist/
-build/
-dist/
 
 # Logs
-logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-pnpm-debug.log*
 
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# Testing
-coverage/
-.nyc_output/
-*.lcov
-
-# IDEs and editors
+# IDEs
 .vscode/
 .idea/
 *.swp
-*.swo
-*.swn
-*~
 .DS_Store
-Thumbs.db
 
 # OS files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-desktop.ini
-
-# Temporary files
-*.tmp
-*.temp
-.cache/
-.parcel-cache/
-
-# Debug
-.vscode/launch.json
-.vscode/settings.json
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional stylelint cache
-.stylelintcache
-
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variable files
-.env.backup
-
-# Next.js
-.next/
-out/
-
-# Nuxt.js
-.nuxt/
-
-# Gatsby
-.cache/
-public/
-
-# Serverless directories
-.serverless/
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
-
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
-
-# yarn v2
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
-
-# MongoDB data
-data/
-mongo-data/
-
-# Backup files
-*.bak
-*.backup
+Thumbs.db
