@@ -20,3 +20,9 @@ Backend/dist/
 
 # OS files
 Thumbs.db
+
+# Never track dependencies
+**/node_modules/
+
+# Ignore build / cache output
+Frontend/node_modules/.cache/
