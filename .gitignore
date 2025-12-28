@@ -21,11 +21,5 @@ Backend/dist/
 # OS files
 Thumbs.db
 
-<<<<<<< HEAD
-# Never track dependencies
-**/node_modules/
-
-=======
->>>>>>> 3247ee79a486bf607d4f92972c577cf8ea12bfb5
 # Ignore build / cache output
 Frontend/node_modules/.cache/
