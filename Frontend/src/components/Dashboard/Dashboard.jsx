@@ -35,9 +35,12 @@ const Dashboard = () => {
   const pendingTasks = tasks.filter((t) => t.status !== 'Done').length;
   const totalTasks = tasks.length;
   const totalProjects = projects.length;
-  const completionPercentage = totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
-  const completedPercentage = totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
-  const pendingPercentage = totalTasks > 0 ? Math.round((pendingTasks / totalTasks) * 100) : 0;
+  const completionPercentage =
+    totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
+  const completedPercentage =
+    totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
+  const pendingPercentage =
+    totalTasks > 0 ? Math.round((pendingTasks / totalTasks) * 100) : 0;
   const projectsPercentage = projects.length > 0 ? 100 : 0;
 
   const recentActivities = activities.slice(0, 10);
@@ -115,9 +118,7 @@ const Dashboard = () => {
               <p className="text-sm text-gray-500 font-medium mb-2">
                 Pending Tasks
               </p>
-              <p className="text-4xl font-bold text-gray-700">
-                {pendingTasks}
-              </p>
+              <p className="text-4xl font-bold text-gray-700">{pendingTasks}</p>
             </div>
             <div className="bg-gray-100 p-4 rounded-xl">
               <FiClock className="text-gray-600" size={28} />
