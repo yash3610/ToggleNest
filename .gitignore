@@ -20,3 +20,6 @@ Backend/dist/
 
 # OS files
 Thumbs.db
+
+# Ignore build / cache output
+Frontend/node_modules/.cache/
