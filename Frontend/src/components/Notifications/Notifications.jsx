@@ -138,10 +138,10 @@ const Notifications = () => {
                                 notification.type === 'Task Assigned'
                                   ? 'bg-blue-100 text-blue-800'
                                   : notification.type === 'Project Assigned'
-                                  ? 'bg-green-100 text-green-800'
-                                  : notification.type === 'Task Completed'
-                                  ? 'bg-purple-100 text-purple-800'
-                                  : 'bg-gray-100 text-gray-800'
+                                    ? 'bg-green-100 text-green-800'
+                                    : notification.type === 'Task Completed'
+                                      ? 'bg-purple-100 text-purple-800'
+                                      : 'bg-gray-100 text-gray-800'
                               }`}
                             >
                               {notification.type}
